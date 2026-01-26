@@ -35,8 +35,7 @@ export default function About() {
                   แอปพลิเคชันและเว็บไซต์ที่สวยงามและใช้งานง่าย
                 </p>
                 <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-                  ผมมีความเชี่ยวชาญในการใช้เทคโนโลยีสมัยใหม่ เช่น Next.js, React,
-                  TypeScript และ Tailwind CSS เพื่อสร้างประสบการณ์ผู้ใช้ที่ดีที่สุด
+                  ผมมีความสนใจในการใช้เทคโนโลยี Next.js, React, TypeScript และ Tailwind CSS เพื่อพัฒนาเว็บแอปพลิเคชันที่มอบประสบการณ์ผู้ใช้ที่มีประสิทธิภาพ
                 </p>
                 <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
                   ผมเชื่อในการเรียนรู้อย่างต่อเนื่องและพร้อมที่จะรับความท้าทายใหม่ๆ

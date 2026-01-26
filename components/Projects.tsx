@@ -133,11 +133,11 @@ const projects: ProjectData[] = [
   },
   {
     title: {
-      th: "ระบบการประกาศตนเอง (e-BBS App)",
+      th: "ระบบการประเมินตนเอง (e-BBS App)",
       en: "Self Declaration System (e-BBS App)",
     },
     description: {
-      th: "ส่วนที่สองที่สร้างโดยใช้แอป e-BBS คือระบบการประกาศตนเองก่อนเริ่มงาน เป็นระบบสำหรับการตรวจสอบตนเองตามหัวข้อที่กำหนด พัฒนาโดยใช้ Google Forms",
+      th: "ส่วนที่สองที่สร้างโดยใช้แอป e-BBS คือระบบการประเมินตนเองก่อนเริ่มงาน เป็นระบบสำหรับการตรวจสอบตนเองตามหัวข้อที่กำหนด พัฒนาโดยใช้ Google Forms",
       en: "The second section, created using the e-BBS App, is the Self Declaration system before starting work. It's a system for self-checking attendance based on specified topics, developed using Google Forms.",
     },
     technologies: ["HTML", "PHP", "SQL Server", "Tailwind CSS", "JavaScript"],
