@@ -5,10 +5,14 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaJs,
+  FaDatabase,
 } from "react-icons/fa";
-import { SiNextdotjs, SiTypescript, SiTailwindcss, SiMongodb } from "react-icons/si";
+import { SiNextdotjs, SiTypescript, SiTailwindcss, SiMongodb, SiMysql } from "react-icons/si";
 
 const skills = [
+  { name: "PHP", icon: FaDatabase, color: "text-indigo-600" },
+  { name: "MySQL", icon: SiMysql, color: "text-blue-600" },
+  { name: "MS SQL", icon: FaDatabase, color: "text-red-600" },
   { name: "React", icon: FaReact, color: "text-blue-500" },
   { name: "Next.js", icon: SiNextdotjs, color: "text-gray-800 dark:text-white" },
   { name: "TypeScript", icon: SiTypescript, color: "text-blue-600" },
