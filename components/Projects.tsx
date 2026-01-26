@@ -73,6 +73,60 @@ const projects: ProjectData[] = [
   },
   {
     title: {
+      th: "ระบบเช็คสต็อกที่ SCGP",
+      en: "Stock Checking System at SCGP",
+    },
+    description: {
+      th: "ระบบเช็คสต็อกที่ SCGP เป็นการเช็คสินค้าของคลังนำข้อมูลสต๊อกของคลังมา Import เข้าระบบและคีย์ข้อมูลเช็คกับสินค้าในคลัง",
+      en: "The stock checking system at SCGP involves checking warehouse inventory, importing warehouse stock data into the system, and then entering the data to check against the actual warehouse stock.",
+    },
+    technologies: ["HTML", "PHP", "SQL Server", "CSS"],
+    github: "https://github.com",
+    demo: "https://example.com",
+    image: "/images/P0_1.png",
+    features: {
+      th: [
+        "ข้อมูลสต็อกที่นำเข้า",
+        "กรองตามประเภทสินค้าหรือข้อมูลสินค้า",
+        "ดูรายละเอียดการเช็ค",
+        "ข้อมูลสต็อกทั้งหมด",
+      ],
+      en: [
+        "Imported stock data",
+        "Filter by product type or product information",
+        "View check details",
+        "All stock information",
+      ],
+    },
+  },
+  {
+    title: {
+      th: "ระบบระบุตำแหน่งสินค้าภายในตู้คอนเทนเนอร์",
+      en: "Container Tracking System",
+    },
+    description: {
+      th: "ระบบระบุตำแหน่งสินค้าภายในตู้คอนเทนเนอร์ ถ่ายรูประบุตำแหน่งของสินค้าภายในตู้",
+      en: "The container tracking system takes photos to identify the location of goods inside the container.",
+    },
+    technologies: ["HTML", "PHP", "SQL Server", "CSS"],
+    github: "https://github.com",
+    demo: "https://example.com",
+    image: "/images/P0_2.png",
+    features: {
+      th: [
+        "ข้อมูลตำแหน่งของสินค้า",
+        "กรองตามประเภทตู้สินค้าหรือหมายเลขใบตั้งสินค้า",
+        "ดาวน์โหลด PDF",
+      ],
+      en: [
+        "Product location information",
+        "Filter by container type or container number",
+        "Download PDF",
+      ],
+    },
+  },
+  {
+    title: {
       th: "แอปพลิเคชัน e-BBS ด้านความปลอดภัย",
       en: "Safety's e-BBS App",
     },
