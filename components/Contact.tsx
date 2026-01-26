@@ -31,7 +31,7 @@ export default function Contact() {
                     className="flex items-center gap-3 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   >
                     <FaEnvelope className="text-blue-600 dark:text-blue-400" />
-                    <span>nopparut2845@gmaul.com</span>
+                    <span>nopparut2845@gmail.com</span>
                   </a>
                   <a
                     href="tel:0825952946"
