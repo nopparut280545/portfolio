@@ -243,6 +243,90 @@ const projects: ProjectData[] = [
       ],
     },
   },
+  {
+    title: {
+      th: "ระบบตรวจรอยเฉี่ยวชนรถงาน (e-BBS App)",
+      en: "Work Vehicle Scratch and Collision Inspection System (e-BBS App)",
+    },
+    description: {
+      th: "ส่วนที่สี่ที่สร้างโดยใช้แอป e-BBS คือระบบตรวจรอยเฉี่ยวชนรถงาน ระบบนี้ตรวจสอบรอยเฉี่ยวชนรถงานในแต่ละพื้นที่ก่อนออกกะปฏิบัติงาน และได้รับการพัฒนาโดยใช้การถ่ายภาพแล้วส่งใน LINE Group",
+      en: "The fourth section created using the e-BBS App is the work vehicle scratch and collision inspection system. This system checks vehicle scratches and collision marks in each area before starting the work shift and was developed using photo submission through LINE Group.",
+    },
+    technologies: ["HTML", "PHP", "MSSQL", "Tailwind CSS", "JavaScript"],
+    github: "https://github.com",
+    demo: "https://example.com",
+    image: "/images/P1_5.png",
+    features: {
+      th: [
+        "การถ่ายรูป 3 ด้านของรถงาน และสามารถส่งแก้ไขได้เมื่อมีรอยเฉี่ยวชน",
+        "ระบบการตรวจสอบภาพโดยหัวหน้างาน",
+        "กราฟแสดงผลสถิติข้อมูล",
+        "อัปเดตข้อการตรวจเช็คแต่ละวันแบบเรียลไทม์ที่หน้า Dashboard",
+      ],
+      en: [
+        "Take photos of 3 sides of work vehicles and submit corrections when scratches or collision marks are found",
+        "Image review system by supervisors",
+        "Statistics graph display",
+        "Real-time daily check updates on Dashboard",
+      ],
+    },
+  },
+  {
+    title: {
+      th: "การขาย สินค้าคงคลัง และเอกสาร (ERP App)",
+      en: "Sales, Inventory and Document Management (ERP App)",
+    },
+    description: {
+      th: "ส่วนงานที่พัฒนาจากระบบ ERP ของระบบจัดการสินค้าและข้อมูลงานเอกสารสำหรับธุรกิจเสื้อผ้า มีการเก็บข้อมูลใบสั่งซื้อ ที่อยู่ การส่งของ ระบบจัดการพนักงาน รวมถึงระบบคำนวณค่าคอมมิชชั่นและ OT",
+      en: "A module developed from an ERP system for product management and document data in the clothing business. It stores purchase orders, addresses, delivery information, employee management data, and includes commission and OT calculation systems.",
+    },
+    technologies: ["Node.js", "Next.js", "Supabase", "Tailwind CSS", "JavaScript"],
+    github: "https://github.com",
+    demo: "https://example.com",
+    image: "/images/P2.png",
+    features: {
+      th: [
+        "ระบบสต็อกสินค้าเรียลไทม์",
+        "ระบบคำนวณค่าคอมมิชชั่นและ OT",
+        "ระบบจัดการเอกสารข้อมูลลูกค้าและข้อมูลสต็อก",
+        "อัปเดตข้อมูลต่างๆ บน Dashboard แบบกราฟและสถิติข้อมูล",
+      ],
+      en: [
+        "Real-time inventory stock system",
+        "Commission and OT calculation system",
+        "Customer document and stock information management system",
+        "Dashboard updates with graphs and statistical data",
+      ],
+    },
+  },
+  {
+    title: {
+      th: "ระบบจัดการการอบรมพนักงานและข้อมูลใบอนุญาต (e-Training Development Centers)",
+      en: "Employee Training and License Management System (e-Training Development Centers)",
+    },
+    description: {
+      th: "เว็บแอป e-TDC คือระบบจัดการการอบรมของพนักงานในองค์กร เพื่อรับใบอนุญาตในการเข้าทำงาน พร้อมทั้งเก็บข้อมูลต่างๆ ของพนักงานและใบอนุญาตที่นับเวลาหมดอายุตามจริง และสามารถรีเทรนนิ่งการอบรมหลักสูตรได้หากใบอนุญาตหมดอายุ",
+      en: "The e-TDC web application is an employee training management system for organizations to support work license approval. It stores employee and license data, tracks license expiration in real time, and supports retraining when licenses expire.",
+    },
+    technologies: ["HTML", "PHP", "MSSQL", "Tailwind CSS", "JavaScript"],
+    github: "https://github.com",
+    demo: "https://example.com",
+    image: "/images/P_3.png",
+    features: {
+      th: [
+        "ระบบจัดการหลักสูตรการอบรม",
+        "ระบบนับเวลาใบอนุญาตหมดอายุ",
+        "ระบบข้อมูลพนักงาน",
+        "อัปเดตข้อมูลได้อย่างเรียลไทม์จากข้อมูลจริง",
+      ],
+      en: [
+        "Training course management system",
+        "License expiration countdown system",
+        "Employee information system",
+        "Real-time updates from actual data",
+      ],
+    },
+  },
 ];
 
 export default function Projects() {
